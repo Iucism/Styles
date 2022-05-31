@@ -47,12 +47,6 @@
 		margin-bottom: 5px;
 }
 
-/* shhhh */
-/* MLV2 Background 
-.theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
-background-color: #141414 !important;
-} */
-
 /* Clean Status Picker */
 .description-3Cwkxk {
 display: none;
@@ -95,4 +89,11 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 .avatarPositionNormal-2jWoC2 {
     top: 76px;
 }
+
+/* Incase you want this, just change the background color to your color! */
+/* MLV2 Background 
+.theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
+background-color: #141414 !important;
+} */
+
 
