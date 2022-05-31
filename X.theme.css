@@ -7,12 +7,13 @@
 
 */
 
+
 @import url("https://discord-modifications.github.io/dark-discord/src/source.css"); 
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
-
-
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://discord-extensions.github.io/modern-indicators/clients/bd/modern-indicators.theme.css");
 
 
 /* Fix Settings Headers */
@@ -48,6 +49,18 @@
 		margin-bottom: 5px;
 }
 
+/* Add Unbound Branding (for future use)
+.info-3pQQBb > span:first-child::after {
+    content: '\aUnbound';
+    color: var(--text-muted);
+    white-space: pre;
+    line-height: 17px !important;
+    text-transform: none;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 16px;
+} */
+
 /* Clean Status Picker */ /* If you want this, put Account Profile Popout experiment to "Control" */
 .description-3Cwkxk {
 display: none;
@@ -69,6 +82,14 @@ width: 500px; }
 .messagesPopoutWrap-3zryHW{
   max-height:70vh !important;
   width:30vw;
+}
+
+/* Better Playing UserPanel */
+.panel-2ZFCRb, .activityPanel-9icbyU {
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--background-secondary-alt);
+  margin-bottom: -0px;
 }
 
 /* Remove "Use Slash Command" in media selector" */
