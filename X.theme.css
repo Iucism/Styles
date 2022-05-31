@@ -10,7 +10,7 @@
 @import url("https://discord-modifications.github.io/dark-discord/src/source.css"); 
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
-/*@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");*/
+@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css"); 
 
 
 
@@ -120,7 +120,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     width: 100%;
 }
 
-/* Replace discord watermark text */
+/* Replace discord watermark text 
 .wordmark-2u86JB:after {
   content: "Unbound";
   font-size: 15px;
@@ -135,7 +135,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   width: 0px;
 }
 
-/* Add icon to watermark */
+ Add icon to watermark 
 .wordmark-2u86JB {
   left: 25px;
 }
@@ -147,7 +147,7 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
   bottom: 0;
   right: 0;
   background: url(https://avatars.githubusercontent.com/u/97824336?s=200&v=4) center/20px no-repeat;
-}
+} */
 
 
 /* Incase you want this, just change the background color to your color! */
