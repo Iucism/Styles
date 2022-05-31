@@ -10,7 +10,8 @@
 @import url("https://discord-modifications.github.io/dark-discord/src/source.css"); 
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
-@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
+/*@import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");*/
+
 
 
 
@@ -60,6 +61,10 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
     d:path('M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z');
 }
 
+/* Wider search results section */
+.searchResultsWrap-5RVOkx { 
+width: 500px; }
+
 /* Fix Pinned Messages Popout */
 .messagesPopoutWrap-3zryHW{
   max-height:70vh !important;
@@ -78,6 +83,12 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 
 /* Old HypeSquad */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");}
+
+/* Nicer Connected Accounts Section */
+.connectedAccount-1xKpli {
+   background-color: var(--background-tertiary);
+   border: 0 !important;
+}
 
 /* Fix Color Banners Height */
 .popoutBanner-3cqRD9 {
@@ -109,10 +120,39 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
     width: 100%;
 }
 
+/* Replace discord watermark text */
+.wordmark-2u86JB:after {
+  content: "Unbound";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+}
+
+.wordmark-2u86JB > svg {
+  width: 0px;
+}
+
+/* Add icon to watermark */
+.wordmark-2u86JB {
+  left: 25px;
+}
+.wordmark-2u86JB:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  bottom: 0;
+  right: 0;
+  background: url(https://avatars.githubusercontent.com/u/97824336?s=200&v=4) center/20px no-repeat;
+}
+
+
 /* Incase you want this, just change the background color to your color! */
 /* MLV2 Background 
 .theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
 background-color: #141414 !important;
 } */
-
 
