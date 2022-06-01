@@ -115,23 +115,15 @@ background-color: var(--background-primary);
    border: 0 !important;
 }
 
-/* Mobile Server Settings */
-.button-2BMPJJ {
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    width: 18px;
-    height: 18px;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iMTAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjRDlEOUQ5Ii8+Cjwvc3ZnPgo=);
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: rotate(90deg);
+/* Fix Color Banners Height */
+.popoutBanner-3cqRD9 {
+    height: 120px;
 }
-.button-2BMPJJ path {
-    display: none;
+.profileBanner-1owKI5 {
+    height: 240px;
 }
-.button-2BMPJJ.open-3fGK6o {
-    transform: rotate(90deg);
+.avatarPositionNormal-2jWoC2 {
+    top: 76px;
 }
 
 /* Edited Text Timestamps */
@@ -148,15 +140,24 @@ background-color: var(--background-primary);
     display: none;
 }
 
-/* Fix Color Banners Height */
-.popoutBanner-3cqRD9 {
-    height: 120px;
+/* Mobile Server Settings */
+.button-2BMPJJ {
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    background-color: var(--interactive-normal);
+    transform: rotate(90deg);
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iMTAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjRDlEOUQ5Ii8+Cjwvc3ZnPgo=);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
 }
-.profileBanner-1owKI5 {
-    height: 240px;
+.button-2BMPJJ path {
+    display: none;
 }
-.avatarPositionNormal-2jWoC2 {
-    top: 76px;
+.button-2BMPJJ.open-3fGK6o {
+    transform: rotate(90deg);
 }
 
 /* Horizontally listed media */
