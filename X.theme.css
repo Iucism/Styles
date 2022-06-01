@@ -48,18 +48,6 @@
 		margin-bottom: 5px;
 }
 
-/* Add Unbound Branding (for future use)
-.info-3pQQBb > span:first-child::after {
-    content: '\aUnbound "github commit"';
-    color: var(--text-muted);
-    white-space: pre;
-    line-height: 17px !important;
-    text-transform: none;
-    font-family: var(--font-primary);
-    font-size: 12px;
-    line-height: 16px;
-} */
-
 /* Clean Status Picker */ /* If you want this, put Account Profile Popout experiment to "Control" */
 .description-3Cwkxk {
 display: none;
@@ -92,14 +80,6 @@ width: 500px; }
   width:30vw;
 }
 
-/* Better Playing UserPanel */
-.panel-2ZFCRb, .activityPanel-9icbyU {
-  border-bottom: none;
-  border-radius: 20px 20px 0 0;
-  background-color: var(--background-secondary-alt);
-  margin-bottom: -0px;
-}
-
 /* Remove "Use Slash Command" in media selector" */
 #channel-attach-SLASH_COMMAND {
     display: none
@@ -116,6 +96,14 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 /* Fix DarkDiscord NitroGifting Panel */
 .content-2eQb8J {
 background-color: var(--background-primary);
+}
+
+/* Better Playing UserPanel */
+.panel-2ZFCRb, .activityPanel-9icbyU {
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--background-secondary-alt);
+  margin-bottom: -0px;
 }
 
 /* Nicer Connected Accounts Section */
@@ -167,6 +155,18 @@ background-color: var(--background-primary);
 [id*="message-reactions"] {
     width: 100%;
 }
+
+/* Add Unbound Branding (for future use)
+.info-3pQQBb > span:first-child::after {
+    content: '\aUnbound "github commit"';
+    color: var(--text-muted);
+    white-space: pre;
+    line-height: 17px !important;
+    text-transform: none;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 16px;
+} */
 
 /* Incase you want this, just change the background color to your color! */
 /* MLV2 Background 
