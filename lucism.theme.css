@@ -51,7 +51,7 @@
 		margin-bottom: 5px;
 }
 
-/* Clean Status Picker */ /* If you want this, put Account Profile Popout experiment to "Control" */
+/* Clean Status Picker */
 .description-3Cwkxk {
 display: none;
 }
@@ -191,7 +191,6 @@ background-color: var(--background-primary);
     line-height: 16px;
 } */
 
-/* Incase you want this, just change the background color to your color! */
 /* MLV2 Background 
 .theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
 background-color: #141414 !important;
