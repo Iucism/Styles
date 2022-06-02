@@ -13,7 +13,6 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
 @import url("https://discord-extensions.github.io/modern-indicators/clients/bd/modern-indicators.theme.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
 
 
@@ -164,7 +163,7 @@ background-color: var(--background-primary);
     transform: rotate(90deg);
 }
 
-/* Horizontally listed media */
+/* Horizontally listed media 
 [id*="message-accessories-"] {
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +180,7 @@ background-color: var(--background-primary);
 }
 [id*="message-reactions"] {
     width: 100%;
-}
+} */
 
 /* Add Unbound Branding (for future use)
 .info-3pQQBb > span:first-child::after {
