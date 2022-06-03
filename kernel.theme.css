@@ -3,7 +3,7 @@
  * @name kernel
  * @author lucism
  * @version 1.0.0
- * @description lucism's daily driver for kernel 
+ * @description lucism's daily driver for kernel
 
 */
 
@@ -192,9 +192,4 @@ background-color: var(--background-primary);
 }
 [id*="message-reactions"] {
     width: 100%;
-} */
-
-/* MLV2 Background 
-.theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
-background-color: #141414 !important;
 } */
