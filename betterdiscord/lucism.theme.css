@@ -158,6 +158,18 @@ background-color: var(--background-primary);
      font-size: 12px;
 }
 
+/* Add Unbound Branding (for future use)
+.info-3pQQBb > span:first-child::after {
+    content: '\aUnbound "github commit"';
+    color: var(--text-muted);
+    white-space: pre;
+    line-height: 17px !important;
+    text-transform: none;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 16px;
+} */
+
 /* Mobile Server Settings */
 .button-2BMPJJ {
     opacity: 1;
@@ -196,16 +208,3 @@ background-color: var(--background-primary);
 [id*="message-reactions"] {
     width: 100%;
 } */
-
-/* Add Unbound Branding (for future use)
-.info-3pQQBb > span:first-child::after {
-    content: '\aUnbound "github commit"';
-    color: var(--text-muted);
-    white-space: pre;
-    line-height: 17px !important;
-    text-transform: none;
-    font-family: var(--font-primary);
-    font-size: 12px;
-    line-height: 16px;
-} */
-
