@@ -9,7 +9,7 @@
 
 
 @import url("https://discord-modifications.github.io/dark-discord/src/source.css"); 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
 @import url("https://discord-extensions.github.io/modern-indicators/clients/bd/modern-indicators.theme.css");
@@ -143,13 +143,25 @@ background-color: var(--background-primary);
     display: none;
 }
 
+/* Add Kernel Branding */
+.info-3pQQBb > span:first-child::after {
+    content: '\aKernel 228a443';
+    color: var(--text-muted);
+    white-space: pre;
+    line-height: 17px !important;
+    text-transform: none;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 16px;
+} 
+
 /* Fix Windows Branding */
-.info-3pQQBb > span:nth-child(4n) {
+.info-3pQQBb > span:nth-child(3n) {
      width: 0;
      height: 0;
      font-size: 0;
 }
- .info-3pQQBb > span:nth-child(4n)::before {
+ .info-3pQQBb > span:nth-child(3n)::before {
      content: 'Windows 11 64-bit';
      color: var(--text-muted);
      white-space: pre;
@@ -178,20 +190,6 @@ background-color: var(--background-primary);
     transform: rotate(90deg);
 }
 
-
-/* Add Unbound Branding (for future use)
-.info-3pQQBb > span:first-child::after {
-    content: '\aUnbound "github commit"';
-    color: var(--text-muted);
-    white-space: pre;
-    line-height: 17px !important;
-    text-transform: none;
-    font-family: var(--font-primary);
-    font-size: 12px;
-    line-height: 16px;
-} */
-
-
 /* Horizontally listed media 
 [id*="message-accessories-"] {
     display: flex;
@@ -210,4 +208,3 @@ background-color: var(--background-primary);
 [id*="message-reactions"] {
     width: 100%;
 } */
-
