@@ -3,7 +3,7 @@
  * @name kernel
  * @author lucism
  * @version 1.0.0
- * @description lucism's daily driver for kernel
+ * @description lucism's daily driver
 
 */
 
@@ -154,6 +154,21 @@ background-color: var(--background-primary);
     font-size: 12px;
     line-height: 16px;
 } 
+
+/* Fix Windows Branding */
+.info-3pQQBb > span:nth-child(3n) {
+     width: 0;
+     height: 0;
+     font-size: 0;
+}
+ .info-3pQQBb > span:nth-child(3n)::before {
+     content: 'Windows 11 64-bit';
+     color: var(--text-muted);
+     white-space: pre;
+     text-transform: none;
+     font-family: var(--font-primary);
+     font-size: 12px;
+}
 
 /* Mobile Server Settings */
 .button-2BMPJJ {
