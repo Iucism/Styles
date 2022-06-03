@@ -143,6 +143,21 @@ background-color: var(--background-primary);
     display: none;
 }
 
+/* Fix Windows Branding */
+.info-3pQQBb > span:nth-child(4n) {
+     width: 0;
+     height: 0;
+     font-size: 0;
+}
+ .info-3pQQBb > span:nth-child(4n)::before {
+     content: 'Windows 11 64-bit';
+     color: var(--text-muted);
+     white-space: pre;
+     text-transform: none;
+     font-family: var(--font-primary);
+     font-size: 12px;
+}
+
 /* Mobile Server Settings */
 .button-2BMPJJ {
     opacity: 1;
@@ -163,6 +178,20 @@ background-color: var(--background-primary);
     transform: rotate(90deg);
 }
 
+
+/* Add Unbound Branding (for future use)
+.info-3pQQBb > span:first-child::after {
+    content: '\aUnbound "github commit"';
+    color: var(--text-muted);
+    white-space: pre;
+    line-height: 17px !important;
+    text-transform: none;
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 16px;
+} */
+
+
 /* Horizontally listed media 
 [id*="message-accessories-"] {
     display: flex;
@@ -182,19 +211,3 @@ background-color: var(--background-primary);
     width: 100%;
 } */
 
-/* Add Unbound Branding (for future use)
-.info-3pQQBb > span:first-child::after {
-    content: '\aUnbound "github commit"';
-    color: var(--text-muted);
-    white-space: pre;
-    line-height: 17px !important;
-    text-transform: none;
-    font-family: var(--font-primary);
-    font-size: 12px;
-    line-height: 16px;
-} */
-
-/* MLV2 Background 
-.theme-dark .footer-31IekZ, .content-2hZxGK, .header-1zd7se {
-background-color: #141414 !important;
-} */
