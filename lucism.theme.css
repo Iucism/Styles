@@ -1,4 +1,4 @@
-@import url("https://discord-modifications.github.io/dark-discord/src/source.css"); 
+@import url("https://discord-modifications.github.io/dark-discord/src/source.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
 @import url("https://discord-extensions.github.io/modern-indicators/clients/bd/modern-indicators.theme.css");
@@ -40,15 +40,15 @@
 
 /* Clean Status Picker */
 .description-3Cwkxk {
-display: none;
+        display: none;
 }
 .separator-1So4YB {
-display: none;
+        display: none;
 }
 
 /* New Pinned SVG */
 path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z'] {
-    d:path('M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z');
+        d:path('M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z');
 }
 
 /* Remove New Member Badge */
@@ -58,31 +58,36 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 
 /* Yellow Passthrough Permissions Tick */
 .passthrough--fbdFR.selected-3jieYB {
-  background-color: #faa61a;
+        background-color: #faa61a;
 }
 
 .passthrough--fbdFR:not(.selected-3jieYB) {
-  color: #faa61a;
+        color: #faa61a;
 }
 
 /* Wider search results section */
 .searchResultsWrap-5RVOkx { 
-width: 500px; }
+        width: 500px; }
+
+/* Re-Squircle Spotify Activity */
+.assetsLargeImageSpotify-17ME3M{
+        border-radius:8px;
+}
 
 /* Fix Pinned Messages Popout */
 .messagesPopoutWrap-3zryHW{
-  max-height:70vh !important;
-  width:30vw;
+        max-height:70vh !important;
+        width:30vw;
 }
 
 /* Remove "Use Slash Command" in media selector" */
 #channel-attach-SLASH_COMMAND {
-    display: none
+        display: none
 }
 
 /* Recolor Thread Spine */
 .spine-29OFwR {
-  color: rgb(255, 255, 255) !important; 
+        color: rgb(255, 255, 255) !important; 
 }
 
 /* Old HypeSquad */
@@ -90,32 +95,32 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 
 /* Fix DarkDiscord NitroGifting Panel */
 .content-2eQb8J {
-background-color: var(--background-primary);
+        background-color: var(--background-primary);
 }
 
 /* Better Playing UserPanel */
 .panel-2ZFCRb, .activityPanel-9icbyU {
-  border-bottom: none;
-  border-radius: 20px 20px 0 0;
-  background-color: var(--background-secondary-alt);
-  margin-bottom: -0px;
+         border-bottom: none;
+         border-radius: 20px 20px 0 0;
+        background-color: var(--background-secondary-alt);
+        margin-bottom: -0px;
 }
 
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
-   background-color: var(--background-tertiary);
-   border: 0 !important;
+        background-color: var(--background-tertiary);
+        border: 0 !important;
 }
 
 /* Fix Color Banners Height */
 .popoutBanner-3cqRD9 {
-    height: 120px;
+        height: 120px;
 }
 .profileBanner-1owKI5 {
-    height: 240px;
+        height: 240px;
 }
 .avatarPositionNormal-2jWoC2 {
-    top: 76px;
+        top: 76px;
 }
 
 /* Edited Text Timestamps */
@@ -129,71 +134,71 @@ background-color: var(--background-primary);
 }
 
 .edited-1v5nT8:not(.message-translate-indicator) {
-    display: none;
+        display: none;
 }
 
 /* Add Kernel Branding */
 .info-3pQQBb > span:first-child::after {
-    content: '\aKernel 228a443';
-    color: var(--text-muted);
-    white-space: pre;
-    line-height: 17px !important;
-    text-transform: none;
-    font-family: var(--font-primary);
-    font-size: 12px;
-    line-height: 16px;
+        content: '\aKernel 228a443';
+        color: var(--text-muted);
+        white-space: pre;
+        line-height: 17px !important;
+        text-transform: none;
+        font-family: var(--font-primary);
+        font-size: 12px;
+        line-height: 16px;
 } 
 
 /* Fix Windows Branding */
 .info-3pQQBb > span:nth-child(3n) {
-     width: 0;
-     height: 0;
-     font-size: 0;
+         width: 0;
+         height: 0;
+        font-size: 0;
 }
  .info-3pQQBb > span:nth-child(3n)::before {
-     content: 'Windows 11 64-bit';
-     color: var(--text-muted);
-     white-space: pre;
-     text-transform: none;
-     font-family: var(--font-primary);
-     font-size: 12px;
+        content: 'Windows 11 64-bit';
+        color: var(--text-muted);
+        white-space: pre;
+        text-transform: none;
+        font-family: var(--font-primary);
+        font-size: 12px;
 }
 
 /* Mobile Server Settings */
 .button-2BMPJJ {
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    width: 18px;
-    height: 18px;
-    background-color: var(--interactive-normal);
-    transform: rotate(90deg);
-    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iMTAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjRDlEOUQ5Ii8+Cjwvc3ZnPgo=);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        width: 18px;
+        height: 18px;
+        background-color: var(--interactive-normal);
+        transform: rotate(90deg);
+        -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxNCAxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjQiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9IiNEOUQ5RDkiLz4KPHJlY3QgeD0iMTAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjRDlEOUQ5Ii8+Cjwvc3ZnPgo=);
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
 }
 .button-2BMPJJ path {
-    display: none;
+        display: none;
 }
 .button-2BMPJJ.open-3fGK6o {
-    transform: rotate(90deg);
+        transform: rotate(90deg);
 }
 
 /* Horizontally listed media 
 [id*="message-accessories-"] {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
 }
 [id*="message-accessories-"] > * {
-    margin-right: .4em !important;
-    min-height: 100% !important;
+        margin-right: .4em !important;
+        min-height: 100% !important;
 }
 [id*="message-accessories-"] > div > a {
-    display: flex;
-    align-items: center;
-    min-height: 100%;
-    background-color: var(--background-secondary);
+        display: flex;
+        align-items: center;
+        min-height: 100%;
+        background-color: var(--background-secondary);
 }
 [id*="message-reactions"] {
-    width: 100%;
+        width: 100%;
 } */
