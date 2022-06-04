@@ -1,7 +1,7 @@
-@import url("https://discord-modifications.github.io/dark-discord/src/source.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
+
 
 /* Fix Settings Headers */
 .side-2ur1Qk .header-2Kx1US, .side-2ur1Qk .item-3XjbnG {
@@ -86,6 +86,11 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 /* Recolor Thread Spine */
 .spine-29OFwR {
         color: rgb(255, 255, 255) !important; 
+}
+
+/* Hide "Public" ServerTag */
+.communityInfo-3YsNIn {
+		display: none;
 }
 
 /* Old HypeSquad */
