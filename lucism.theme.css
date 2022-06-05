@@ -154,27 +154,6 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
       transform: rotate(90deg);
 }
 
-/* Better Name UnderLine */
-.username-h_Y3Us:hover {
-      text-decoration: none !important;
-}
-.username-h_Y3Us:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 1px;
-      bottom: 0;
-      left: 0;
-      background-color: var(--brand-experiment);
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-}    
-.username-h_Y3Us:hover:after {
-      transform: scaleX(1);
-      transform-origin: bottom left;
-}
-
 /* Fix Settings Headers */
 .side-2ur1Qk .header-2Kx1US, .side-2ur1Qk .item-3XjbnG {
       padding: 5px 10px;
