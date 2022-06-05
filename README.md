@@ -1,2 +1,2 @@
 # discord-theme
-my theme, yeah
+powercord 
