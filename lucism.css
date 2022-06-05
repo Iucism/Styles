@@ -6,35 +6,35 @@
 
 /* Fix Settings Headers */
 .side-2ur1Qk .header-2Kx1US, .side-2ur1Qk .item-3XjbnG {
-		  padding: 5px 10px;
-		  margin: 0 0 2px 0;
+      padding: 5px 10px;
+      margin: 0 0 2px 0;
 }
 .header-2Kx1US {
-		  font-size: 13px;
-		  font-weight: 600;
-		  line-height: 15px;
-		  text-transform: none;
-		  color: #fff;
-		  border-bottom: 2px dashed rgba(var(--AccentColor), 0.75);
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 15px;
+      text-transform: none;
+      color: #fff;
+      border-bottom: 2px dashed rgba(var(--AccentColor), 0.75);
 }
 .sidebar-nqHbhN {
-		  width: 250px;
-	    padding: 25px 5px 20px 5px;
+      width: 250px;
+      padding: 25px 5px 20px 5px;
 }
 
 /* Settings Width */
 .contentColumnDefault-3eyv5o {
-		  padding: 25px;
+      padding: 25px;
 }
 .contentColumn-1C7as6, .customColumn-2n-oKU {
-		  max-width: 750px;
-		  min-width: 450px;
+      max-width: 750px;
+      min-width: 450px;
 }
 .h1-34Txb0 {
-		  border-bottom: 2px dashed rgba(var(--AccentColor), 1);
+      border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 .defaultMarginh1-EURXsm, .defaultMarginh2-t7G-2y {
-		  margin-bottom: 5px;
+      margin-bottom: 5px;
 }
 
 /* Old HypeSquad */
