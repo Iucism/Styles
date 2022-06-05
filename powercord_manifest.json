@@ -3,5 +3,5 @@
    "description": "my daily driver",
    "version": "1.0.0",
    "author": "lucism",
-   "theme": "lucism.theme.css",
+   "theme": "lucism.css",
 }
