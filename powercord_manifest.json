@@ -1,6 +1,6 @@
 {
-   "name": "lucism",
-   "description": "my daily driver",
+   "name": "Personal Styles",
+   "description": "My custom css",
    "version": "1.0.0",
    "author": "lucism",
    "theme": "lucism.css",
