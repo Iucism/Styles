@@ -1,2 +1,1 @@
-# discord-theme
-powercord 
+### my custom css
