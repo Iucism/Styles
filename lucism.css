@@ -4,6 +4,7 @@
 
 
 
+
 /* Old HypeSquad */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");}
 
@@ -187,8 +188,56 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
       display: flex;
       align-items: center;
       min-height: 100%;
-       background-color: var(--background-secondary);
+      background-color: var(--background-secondary);
 }
 [id*="message-reactions"] {
-       width: 100%;
+      width: 100%;
 } */
+
+/* Animated pc-spotify Controls */
+button:hover .fa-sync{
+      --deg: 360deg;
+      animation: spin 2s 0s infinite linear;
+    }
+    button:hover .fa-undo {
+      --deg: -360deg;
+      animation: spin 2s 0s infinite linear;
+    }
+    .fa-forward, .fa-backward {
+      transition-duration: 0.3s;
+    }
+    button:hover .fa-forward:hover {
+      transform: translate(2px);
+    }
+    button:hover .fa-backward:hover {
+      transform: translate(-2px);
+    }
+    button:hover .fa-random {
+      background-image: 
+      linear-gradient(to right, Currentcolor, #14ac65) ; 
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;  
+      animation: move 100s linear infinite;
+    }
+    button:hover .fa-random.active {
+      background-image: 
+      linear-gradient(to right, var(--spotify-color), #14ac65) ; 
+    }
+    .powercord-spotify .button-14-BFJ:hover .contents-18-Yxp {
+      animation-name: none;
+    }
+    @keyframes move {
+      from{
+        background-position: 0px;
+      }
+      to {
+          background-position: 2400px;
+      }
+    }
+    .spotify-seek-bar-progress, .spotify-seek-bar-cursor {
+      transition: 0.5s !important;
+    }
+    .spotify-seek-bar-progress:hover {
+      filter: drop-shadow(0px 0px 2px var(--spotify-color));
+    }
