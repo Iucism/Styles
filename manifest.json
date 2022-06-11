@@ -1,0 +1,12 @@
+{
+   "name": "Personal",
+   "description": "Personal Styles",
+   "authors": [
+      {
+         "name": "lucism",
+         "id": "307316554805018624"
+      }
+   ],
+   "version": "1.0.0",
+   "id": "lucism.personal"
+}
