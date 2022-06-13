@@ -56,11 +56,6 @@ path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
       display: none;
 }
 
-/* Fix DarkDiscord NitroGifting Panel */
-.content-2eQb8J {
-      background-color: var(--background-primary);
-}
-
 /* Better Playing UserPanel */
 .panel-2ZFCRb, .activityPanel-9icbyU {
       border-bottom: none;
