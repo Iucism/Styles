@@ -1,12 +1,13 @@
 {
    "name": "Personal",
    "description": "Personal Styles",
+   "version": "1.0.0",
    "authors": [
       {
          "name": "lucism",
          "id": "307316554805018624"
       }
    ],
-   "version": "1.0.0",
+   "main": "index.css",
    "id": "lucism.personal"
 }
