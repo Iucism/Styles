@@ -63,14 +63,6 @@ div[class*="premiumLabel-"] > svg {
       border: 0 !important;
 }
 
-/* Better Playing UserPanel */
-.panel-2ZFCRb, .activityPanel-9icbyU {
-      border-bottom: none;
-      border-radius: 20px 20px 0 0;
-      background-color: var(--background-secondary-alt);
-      margin-bottom: -0px;
-}
-
 /* Yellow Passthrough Permissions Tick */
 .passthrough--fbdFR.selected-3jieYB {
       background-color: #faa61a;
