@@ -124,23 +124,6 @@ div[class*="premiumLabel-"] > svg {
       font-size: 12px;
 }
 
-/* Revert Essence GuildsList Nav Buttons */
-#app-mount .scroller-3X7KbA {
-      contain: layout size;
-      margin-bottom: unset;
-}
-#app-mount .scroller-3X7KbA .guildSeparator-a4uisj::after {
-      content: none;
- }
-#app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB {
-      position: relative;
-      bottom: unset;
-}
-  #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
-      position: relative;
-      bottom: unset;
-}
-
 /* Mobile Server Settings */
 .button-2BMPJJ {
       opacity: 1;
@@ -159,6 +142,23 @@ div[class*="premiumLabel-"] > svg {
 }
 .button-2BMPJJ.open-3fGK6o {
       transform: rotate(90deg);
+}
+
+/* Revert Essence GuildsList Nav Buttons */
+#app-mount .scroller-3X7KbA {
+      contain: layout size;
+      margin-bottom: unset;
+}
+#app-mount .scroller-3X7KbA .guildSeparator-a4uisj::after {
+      content: none;
+}
+#app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB {
+      position: relative;
+      bottom: unset;
+}
+  #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
+      position: relative;
+      bottom: unset;
 }
 
 /* Fix Settings Headers */
