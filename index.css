@@ -3,6 +3,7 @@
 @import "https://nyri4.github.io/Discolored/main.css";
 
 
+
 /* Fix Essence MemberCount for now */
 .total-members, #MemberCount {
       background: var(--background-primary) !important;
@@ -193,7 +194,7 @@ div[class*="premiumLabel-"] > svg {
       margin-bottom: 5px;
 }
 
-/* Horizontally listed media */
+/* Horizontally listed media *
 [id*="message-accessories-"] {
       display: flex;
       flex-wrap: wrap;
@@ -210,4 +211,4 @@ div[class*="premiumLabel-"] > svg {
 }
 [id*="message-reactions"] {
       width: 100%;
-} 
+} */
