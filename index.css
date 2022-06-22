@@ -123,7 +123,7 @@ div[class*="premiumLabel-"] > svg {
       font-size: 12px;
 }
 
-/* Revert Essence GuildsList > Join/CreateServer/Discovery */
+/* Revert Essence GuildsList Nav Buttons */
 #app-mount .scroller-3X7KbA {
       contain: layout size;
       margin-bottom: unset;
