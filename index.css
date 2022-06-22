@@ -1,15 +1,20 @@
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+/* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css'); */
+@import "https://nyri4.github.io/Discolored/main.css";
 
+
+/* Fix Essence MemberCount for now */
+.total-members, #MemberCount {
+      background: var(--background-primary) !important;
+}
 
 /* Old HypeSquad */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");}
 
-/* New Pinned SVG */
+/* New Pinned SVG 
 path[d='M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z'] {
       d:path('M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z');
-}
+} */
 
 /* Log Out Icon */
 [d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z"] {
@@ -116,6 +121,23 @@ div[class*="premiumLabel-"] > svg {
       text-transform: none;
       font-family: var(--font-primary);
       font-size: 12px;
+}
+
+/* Revert Essence GuildsList > Join/CreateServer/Discovery */
+#app-mount .scroller-3X7KbA {
+      contain: layout size;
+      margin-bottom: unset;
+}
+#app-mount .scroller-3X7KbA .guildSeparator-a4uisj::after {
+      content: none;
+ }
+#app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB {
+      position: relative;
+      bottom: unset;
+}
+  #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
+      position: relative;
+      bottom: unset;
 }
 
 /* Mobile Server Settings */
