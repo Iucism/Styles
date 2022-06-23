@@ -4,7 +4,7 @@
 
 
 
-/* Fix Essence MemberCount for now */
+/* Fix Essence MemberCount */
 .total-members, #MemberCount {
       background: var(--background-primary) !important;
 }
@@ -86,7 +86,7 @@ div[class*="premiumLabel-"] > svg {
       color: #fffbfc;
 }
 
-/* Make ColorBanners Height equal NitroBanners */
+/* Make ColorBanners Height = NitroBanners */
 .popoutBanner-3cqRD9 {
       height: 120px;
 }
@@ -124,7 +124,7 @@ div[class*="premiumLabel-"] > svg {
       font-size: 12px;
 }
 
-/* Mobile Server Settings */
+/* Mobile Server Settings Icon */
 .button-2BMPJJ {
       opacity: 1;
       position: relative;
