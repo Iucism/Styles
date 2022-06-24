@@ -5,11 +5,6 @@
 
 
 
-/* Center BD UserDetails Icons */
-.headerTop-3GPUSF .UserDetails-dates-icons {
-      justify-content: center;
-}
-
 /* Theme Membercounters */
 .total-members, #MemberCount {
       background: var(--background-primary) !important;
