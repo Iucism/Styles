@@ -39,6 +39,16 @@ div[class*="premiumLabel-"] > svg {
       display: none;
 }
 
+/* Hide "Public" ServerTag */
+.communityInfo-3YsNIn {
+      display: none;
+}
+
+/* Remove "Use Slash Command" in media selector */
+#channel-attach-SLASH_COMMAND {
+      display: none
+}
+
 /* Wider search results section */
 .searchResultsWrap-5RVOkx {
       width: 500px; }
@@ -54,20 +64,11 @@ div[class*="premiumLabel-"] > svg {
       width:30vw;
 }
 
-/* Remove "Use Slash Command" in media selector */
-#channel-attach-SLASH_COMMAND {
-      display: none
-}
-
 /* Recolor Thread Spine */
 .spine-29OFwR {
       color: rgb(255, 255, 255) !important; 
 }
 
-/* Hide "Public" ServerTag */
-.communityInfo-3YsNIn {
-		  display: none;
-}
 
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
