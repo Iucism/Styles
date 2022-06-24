@@ -3,8 +3,12 @@
 @import "https://nyri4.github.io/Discolored/main.css";
 
 
+/* Center BD UserDetails Icons */
+.headerTop-3GPUSF .UserDetails-dates-icons {
+      justify-content: center;
+}
 
-/* Fix Essence MemberCount */
+/* Theme Membercounters */
 .total-members, #MemberCount {
       background: var(--background-primary) !important;
 }
