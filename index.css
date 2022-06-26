@@ -99,18 +99,6 @@ div[class*="premiumLabel-"] > svg {
       top: 76px;
 }
 
-/* Add Kernel Branding */
-.info-3pQQBb > span:first-child::after {
-      content: '\aKernel 228a443';
-      color: var(--text-muted);
-      white-space: pre;
-      line-height: 17px !important;
-      text-transform: none;
-      font-family: var(--font-primary);
-      font-size: 12px;
-      line-height: 16px;
-} 
-
 /* Fix Windows Branding */
 .info-3pQQBb > span:nth-child(3n) {
       width: 0;
