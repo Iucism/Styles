@@ -184,7 +184,7 @@ div[class*="premiumLabel-"] > svg {
       margin-bottom: 5px;
 }
 
-/* Horizontally listed media *
+/* Horizontally listed media 
 [id*="message-accessories-"] {
       display: flex;
       flex-wrap: wrap;
