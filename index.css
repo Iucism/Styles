@@ -27,13 +27,16 @@ path[d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11
       display:none;
 }
 
-/* Remove new Nitro icon*/
+/* Remove New Nitro icon*/
 div[class*="premiumLabel-"] > svg {
       display: none;
 }
 
 /* Hide "Public" ServerTag */
-.communityInfo-3YsNIn {
+.communityInfoContainer-1dMVpU {
+      display: none;
+}
+.container-1NXEtd .content-2a4AW9 > div[style="height: 16px;"]:nth-child(2){
       display: none;
 }
 
