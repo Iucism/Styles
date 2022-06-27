@@ -64,7 +64,6 @@ div[class*="premiumLabel-"] > svg {
       color: rgb(255, 255, 255) !important; 
 }
 
-
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
       background-color: var(--background-tertiary);
