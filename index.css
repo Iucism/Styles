@@ -5,6 +5,12 @@
 
 
 
+
+/* Essence Roudning */
+:root {
+      --avatar-default-rounding: 50% !important;
+}
+
 /* Old HypeSquad */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"] { 
       content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");
@@ -26,7 +32,7 @@ path[d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11
       display:none;
 }
 
-/* Remove New Nitro icon*/
+/* Remove New Nitro icon */
 div[class*="premiumLabel-"] > svg {
       display: none;
 }
@@ -35,13 +41,15 @@ div[class*="premiumLabel-"] > svg {
 .communityInfoContainer-1dMVpU {
       display: none;
 }
-.container-1NXEtd .content-2a4AW9 > div[style="height: 16px;"]:nth-child(2){
-      display: none;
-}
 
 /* Remove "Use Slash Command" in media selector */
 #channel-attach-SLASH_COMMAND {
       display: none
+}
+
+/* Remove RadialStatus Branding */
+#app-mount .info-3pQQBb .line-18uChy:last-child:after {
+      display:none !important;
 }
 
 /* Wider search results section */
