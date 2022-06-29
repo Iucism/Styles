@@ -138,7 +138,7 @@ div[class*="premiumLabel-"] > svg {
       content: none !important;
 }
 #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB {
-      position: relative; !important;
+      position: relative !important;
       bottom: unset !important;
 }
   #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
