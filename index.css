@@ -100,7 +100,7 @@ div[class*="premiumLabel-"] > svg {
   height: 0;
   font-size: 0;
 }
- .info-3pQQBb > span:nth-child(3n)::before {
+.info-3pQQBb > span:nth-child(3n)::before {
   content: 'Windows 11 64-bit';
   color: var(--text-muted);
   white-space: pre;
