@@ -94,6 +94,19 @@ div[class*="premiumLabel-"] > svg {
   top: 76px;
 }
 
+/* Collapsing Voice Panel Buttons */
+.container-1zzFcN .actionButtons-2vEOUh{
+  transition: 250ms ease-out;
+  padding-top: 0px;
+  opacity: 0;
+  height: 0;
+}
+.container-1zzFcN:hover .actionButtons-2vEOUh{
+  padding-top: 4px;
+  height: 36px;
+  opacity: 1;
+}
+
 /* Fix Windows Branding */
 .info-3pQQBb > span:nth-child(3n) {
   width: 0;
