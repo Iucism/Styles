@@ -72,8 +72,8 @@ div[class*="premiumLabel-"] > svg {
 }
 
 /* Revert new Nitro color */
-.premiumLabel-3HPvdB {
-  color: #7289da;
+.item-3XjbnG[aria-controls="discord-nitro-tab" i] .background-Gjdjzm.selectedBackground-1t6xXq {
+  display: none;
 }
 .premiumLabel-3HPvdB.selected-2Uns2B {
   color: #fffbfc;
