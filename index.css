@@ -37,7 +37,7 @@ div[class*="premiumLabel-"] > svg {
 
 /* Remove RadialStatus Branding */
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
-  display:none !important;
+  display: none !important;
 }
 
 /* Wider search results section */
@@ -55,24 +55,20 @@ div[class*="premiumLabel-"] > svg {
   width:30vw;
 }
 
-/* Recolor Thread Spine */
-.spine-29OFwR {
-  color: rgb(255, 255, 255) !important; 
-}
-
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
   background-color: var(--background-tertiary);
   border: 0 !important;
 }
 
-/* Yellow Passthrough Permissions Tick */
-.passthrough--fbdFR.selected-3jieYB {
-  background-color: #faa61a;
+/* White DM Header */
+.headerText-1qIDDT {
+  color: rgb(255, 255, 255); 
 }
 
-.passthrough--fbdFR:not(.selected-3jieYB) {
-  color: #faa61a;
+/* Recolor Thread Spine */
+.spine-29OFwR {
+  color: rgb(255, 255, 255) !important; 
 }
 
 /* Revert new Nitro color */
@@ -81,6 +77,14 @@ div[class*="premiumLabel-"] > svg {
 }
 .premiumLabel-3HPvdB.selected-2Uns2B {
   color: #fffbfc;
+}
+
+/* Yellow Passthrough Permissions Tick */
+.passthrough--fbdFR.selected-3jieYB {
+  background-color: #faa61a;
+}
+.passthrough--fbdFR:not(.selected-3jieYB) {
+  color: #faa61a;
 }
 
 /* Make ColorBanners Height = NitroBanners */
