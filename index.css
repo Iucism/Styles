@@ -46,7 +46,7 @@ div[class*="premiumLabel-"] > svg {
 
 /* Re-Squircle Spotify Activity */
 .assetsLargeImageSpotify-17ME3M {
-  border-radius:8px;
+  border-radius: 8px;
 }
 
 /* Fix Pinned Messages Popout */
@@ -66,14 +66,9 @@ div[class*="premiumLabel-"] > svg {
   color: var(--brand-experiment);
 }
 
-/* White DM Header */
-.headerText-1qIDDT {
+/* White DM/Channel Header/Thread Spine */
+.theme-dark .headerText-1qIDDT, .name-3BUDLf, .spine-29OFwR {
   color: rgb(255, 255, 255); 
-}
-
-/* Recolor Thread Spine */
-.spine-29OFwR {
-  color: rgb(255, 255, 255) !important; 
 }
 
 /* Revert new Nitro color */
