@@ -61,6 +61,11 @@ div[class*="premiumLabel-"] > svg {
   border: 0 !important;
 }
 
+/* Blurple Verified */
+.verified-1Jv_7P {
+    color: var(--brand-experiment);
+}
+
 /* White DM Header */
 .headerText-1qIDDT {
   color: rgb(255, 255, 255); 
