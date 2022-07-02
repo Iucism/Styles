@@ -68,7 +68,7 @@ div[class*="premiumLabel-"] > svg {
 
 /* White DM/Channel Header/Thread Spine */
 .theme-dark .headerText-1qIDDT, .name-3BUDLf, .spine-29OFwR {
-  color: rgb(255, 255, 255); 
+  color: #fff; 
 }
 
 /* Revert new Nitro color */
