@@ -1,6 +1,7 @@
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://aenoo.github.io/Discordicons/src/main.css");
 
 
 
@@ -157,7 +158,7 @@ div[class*="premiumLabel-"] > svg {
   position: relative !important;
   bottom: unset !important;
 }
-  #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
+#app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
   position: relative !important;
   bottom: unset !important;
 }
@@ -181,9 +182,6 @@ div[class*="premiumLabel-"] > svg {
 }
 
 /* Settings Width */
-.contentColumnDefault-3eyv5o {
-  padding: 25px;
-}
 .contentColumn-1C7as6, .customColumn-2n-oKU {
   max-width: 750px;
   min-width: 450px;
