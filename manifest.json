@@ -1,5 +1,5 @@
 {
-   "name": "Personal",
+   "name": "Styles",
    "description": "Personal Styles",
    "version": "1.0.0",
    "authors": [
@@ -9,5 +9,5 @@
       }
    ],
    "main": "index.css",
-   "id": "lucism.personal"
+   "id": "lucism.styles"
 }
