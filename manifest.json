@@ -1,13 +1,13 @@
 {
-   "name": "Styles",
-   "description": "Personal Styles",
-   "version": "1.0.0",
-   "authors": [
-      {
-         "name": "lucism",
-         "id": "307316554805018624"
-      }
-   ],
-   "main": "index.css",
-   "id": "lucism.styles"
+  "name": "Styles",
+  "description": "Personal Styles",
+  "version": "1.0.0",
+  "authors": [
+     {
+        "name": "lucism",
+        "id": "307316554805018624"
+     }
+  ],
+  "main": "index.css",
+  "id": "lucism.styles"
 }
