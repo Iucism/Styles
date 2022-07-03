@@ -3,5 +3,5 @@
     "version": "1.0.0",
     "description": "Personal styles",
     "author": "lucism",
-    "main": "./index.css" // We Will Read this
+    "main": "./index.css"
 }
