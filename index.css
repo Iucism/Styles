@@ -9,73 +9,60 @@ img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],
 img[src$="efcc751513ec434ea4275ecda4f61136.svg"] {
   content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");
 }
-
 /* New Pinned SVG */
 path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z"] {
   d: path(
     "M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z"
   );
 }
-
 /* Remove New Member Badge */
 [class^="newMemberBadge-"] {
   display: none;
 }
-
 /* Remove New Nitro icon */
 div[class*="premiumLabel-"] > svg {
   display: none;
 }
-
 /* Hide "Public" ServerTag */
 .communityInfoContainer-1dMVpU {
   display: none;
 }
-
 /* Remove "Use Slash Command" in media selector */
 #channel-attach-SLASH_COMMAND {
   display: none;
 }
-
 /* Remove RadialStatus Branding */
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
   display: none !important;
 }
-
 /* Wider search results section */
 .searchResultsWrap-5RVOkx {
   width: 500px;
 }
-
 /* Re-Squircle Spotify Activity */
 .assetsLargeImageSpotify-17ME3M {
   border-radius: 8px;
 }
-
 /* Fix Pinned Messages Popout */
 .messagesPopoutWrap-3zryHW {
   max-height: 70vh !important;
   width: 30vw;
 }
-
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
   background-color: var(--background-tertiary);
   border: 0 !important;
 }
-
 /* Blurple Verified */
 .verified-1Jv_7P {
   color: var(--brand-experiment);
 }
-
 /* White DM/Channel Header/Thread Spine */
 .theme-dark .headerText-1qIDDT,
 .name-3BUDLf,
 .spine-29OFwR {
   color: #fff;
 }
-
 /* Revert new Nitro color */
 .item-3XjbnG[aria-controls="discord-nitro-tab" i]
   .background-Gjdjzm.selectedBackground-1t6xXq {
@@ -84,7 +71,6 @@ div[class*="premiumLabel-"] > svg {
 .premiumLabel-3HPvdB.selected-2Uns2B {
   color: #fffbfc;
 }
-
 /* Yellow Passthrough Permissions Tick */
 .passthrough--fbdFR.selected-3jieYB {
   background-color: #faa61a;
@@ -92,7 +78,6 @@ div[class*="premiumLabel-"] > svg {
 .passthrough--fbdFR:not(.selected-3jieYB) {
   color: #faa61a;
 }
-
 /* Make ColorBanners Height = NitroBanners */
 .popoutBanner-3cqRD9 {
   height: 120px;
@@ -103,7 +88,6 @@ div[class*="premiumLabel-"] > svg {
 .avatarPositionNormal-2jWoC2 {
   top: 76px;
 }
-
 /* Collapsing Voice Panel */
 .container-1zzFcN .actionButtons-2vEOUh {
   transition: 250ms ease-out;
@@ -116,7 +100,6 @@ div[class*="premiumLabel-"] > svg {
   height: 36px;
   opacity: 1;
 }
-
 /* Fix Windows Branding */
 .info-3pQQBb > span:nth-child(3n) {
   width: 0;
@@ -131,7 +114,6 @@ div[class*="premiumLabel-"] > svg {
   font-family: var(--font-primary);
   font-size: 12px;
 }
-
 /* Mobile Server Settings Icon */
 .button-2BMPJJ {
   opacity: 1;
@@ -151,7 +133,6 @@ div[class*="premiumLabel-"] > svg {
 .button-2BMPJJ.open-3fGK6o {
   transform: rotate(90deg);
 }
-
 /* Revert Essence GuildsList Nav Buttons */
 #app-mount .scroller-3X7KbA {
   contain: layout size !important;
@@ -168,7 +149,6 @@ div[class*="premiumLabel-"] > svg {
   position: relative !important;
   bottom: unset !important;
 }
-
 /* Fix Settings Headers */
 .side-2ur1Qk .header-2Kx1US,
 .side-2ur1Qk .item-3XjbnG {
@@ -187,7 +167,6 @@ div[class*="premiumLabel-"] > svg {
   width: 250px;
   padding: 25px 5px 20px 5px;
 }
-
 /* Settings Width */
 .contentColumn-1C7as6,
 .customColumn-2n-oKU {
