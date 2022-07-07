@@ -9,6 +9,17 @@ img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],
 img[src$="efcc751513ec434ea4275ecda4f61136.svg"] {
   content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");
 }
+/* Revert Iconsax Downnload Icon */
+[d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"] {
+  d: path(
+    "M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"
+  ) !important;
+}
+[d="M19,3H14V5h5v5h2V5A2,2,0,0,0,19,3Z"],
+[d="M19,19H14v2h5a2,2,0,0,0,2-2V14H19Z"],
+[d="M3,5v5H5V5h5V3H5A2,2,0,0,0,3,5Z"] {
+  display: block;
+}
 /* Remove New Member Badge */
 [class^="newMemberBadge-"] {
   display: none;
@@ -182,8 +193,8 @@ div[class*="premiumLabel-"] > svg {
   background: #35363a;
   line-height: normal;
   font-weight: normal;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: #e8eaed;
   font-size: 12px;
   padding: 3px 4px;
