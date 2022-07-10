@@ -191,7 +191,6 @@ div[class*="premiumLabel-"] > svg {
   line-height: 15px;
   text-transform: none;
   color: #fff;
-  border-bottom: 2px dashed rgba(var(--AccentColor), 0.75);
 }
 .sidebar-nqHbhN {
   width: 250px;
