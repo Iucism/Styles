@@ -1,7 +1,7 @@
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://aenoo.github.io/Discordicons/src/main.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
 
 /* Old HypeSquad */
 img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],
@@ -41,10 +41,6 @@ img[src$="efcc751513ec434ea4275ecda4f61136.svg"] {
 [class^="newMemberBadge-"] {
   display: none;
 }
-/* Remove New Nitro icon */
-div[class*="premiumLabel-"] > svg {
-  display: none;
-}
 /* Remove RadialStatus Branding */
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
   display: none !important;
@@ -71,13 +67,6 @@ div[class*="premiumLabel-"] > svg {
 .name-3BUDLf,
 .spine-29OFwR {
   color: #fff;
-}
-/* Revert new Nitro color */
-.item-3XjbnG[aria-controls="discord-nitro-tab" i] .background-Gjdjzm.selectedBackground-1t6xXq {
-  display: none;
-}
-.premiumLabel-3HPvdB.selected-2Uns2B {
-  color: #fffbfc;
 }
 /* Yellow Passthrough Permissions Tick */
 .passthrough--fbdFR.selected-3jieYB {
