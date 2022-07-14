@@ -70,11 +70,6 @@ div[class*="premiumLabel-"] > svg {
   max-height: 70vh !important;
   width: 30vw;
 }
-/* Nicer Connected Accounts Section */
-.connectedAccount-1xKpli {
-  background-color: var(--background-tertiary);
-  border: 0 !important;
-}
 /* Blurple Verified */
 .verified-1Jv_7P {
   color: var(--brand-experiment);
@@ -99,7 +94,11 @@ div[class*="premiumLabel-"] > svg {
 .passthrough--fbdFR:not(.selected-3jieYB) {
   color: #faa61a;
 }
-/* Old UserConnections */
+/* Nicer Connected Accounts Section */
+.connectedAccount-1xKpli {
+  background-color: var(--background-tertiary);
+  border: 0 !important;
+}
 .connectedAccountNameText-2m46Qn {
   font-weight: 500;
 }
@@ -117,18 +116,6 @@ div[class*="premiumLabel-"] > svg {
 }
 .avatarPositionNormal-2jWoC2 {
   top: 76px;
-}
-/* Collapsing Voice Panel */
-.container-1zzFcN .actionButtons-2vEOUh {
-  transition: 250ms ease-out;
-  padding-top: 0px;
-  opacity: 0;
-  height: 0;
-}
-.container-1zzFcN:hover .actionButtons-2vEOUh {
-  padding-top: 4px;
-  height: 36px;
-  opacity: 1;
 }
 /* Fix Windows Branding */
 .info-3pQQBb > span:nth-child(3n) {
