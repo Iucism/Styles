@@ -52,16 +52,11 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 .passthrough--fbdFR:not(.selected-3jieYB) {
   color: #faa61a;
 }
-/* Fix Pinned/Thread Popouts */
-.messagesPopoutWrap-3zryHW {
-  max-height: calc(100vh - 150px) !important;
-  width: auto;
-  max-width: 500px;
-  min-width: 400px;
-}
-.layer-2aCOJ3 .browser-mnQ1T7.container-18GwIk {
-  max-height: calc(100vh - 150px) !important;
-  max-width: 500px;
+/* Better Inbox */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+  background-color: var(--background-primary);
+  overflow: hidden;
 }
 /* Make ColorBanners Height = NitroBanners */
 .popoutBanner-3cqRD9 {
@@ -72,6 +67,17 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 }
 .avatarPositionNormal-2jWoC2 {
   top: 76px;
+}
+/* Fix Pinned/Thread Popouts */
+.messagesPopoutWrap-3zryHW {
+  max-height: calc(100vh - 150px) !important;
+  width: auto;
+  max-width: 500px;
+  min-width: 400px;
+}
+.layer-2aCOJ3 .browser-mnQ1T7.container-18GwIk {
+  max-height: calc(100vh - 150px) !important;
+  max-width: 500px;
 }
 /* Nicer Connected Accounts Section */
 .connectedAccount-1xKpli {
@@ -99,6 +105,33 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
   text-transform: none;
   font-family: var(--font-primary);
   font-size: 12px;
+}
+/* Settings Width */
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+  max-width: 750px;
+  min-width: 450px;
+}
+.defaultMarginh1-EURXsm,
+.defaultMarginh2-t7G-2y {
+  margin-bottom: 5px;
+}
+/* Fix Settings Headers */
+.side-2ur1Qk .header-2Kx1US,
+.side-2ur1Qk .item-3XjbnG {
+  padding: 5px 10px;
+  margin: 0 0 2px 0;
+}
+.header-2Kx1US {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  text-transform: none;
+  color: #fff;
+}
+.sidebar-nqHbhN {
+  width: 250px;
+  padding: 25px 5px 20px 5px;
 }
 /* Mobile Server Settings Icon */
 .button-2BMPJJ {
@@ -134,31 +167,4 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 #app-mount .scroller-3X7KbA .tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
   position: relative !important;
   bottom: unset !important;
-}
-/* Fix Settings Headers */
-.side-2ur1Qk .header-2Kx1US,
-.side-2ur1Qk .item-3XjbnG {
-  padding: 5px 10px;
-  margin: 0 0 2px 0;
-}
-.header-2Kx1US {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 15px;
-  text-transform: none;
-  color: #fff;
-}
-.sidebar-nqHbhN {
-  width: 250px;
-  padding: 25px 5px 20px 5px;
-}
-/* Settings Width */
-.contentColumn-1C7as6,
-.customColumn-2n-oKU {
-  max-width: 750px;
-  min-width: 450px;
-}
-.defaultMarginh1-EURXsm,
-.defaultMarginh2-t7G-2y {
-  margin-bottom: 5px;
 }
