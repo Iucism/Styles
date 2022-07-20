@@ -1,3 +1,8 @@
+/**
+  * @name Styles
+  * @author lucism
+  * @version 1.0.0
+*/
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://aenoo.github.io/Discordicons/src/main.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
@@ -21,7 +26,7 @@ img[src$="efcc751513ec434ea4275ecda4f61136.svg"] {
   );
   transform: scale(0.7) translate(-2px, -2px) !important;
 }
-/* New Pinned Icon */
+/* Pinned Icon */
 path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z"] {
   d: path(
     "M21.2,8.77l-.56.55a.53.53,0,0,1-.75,0l-.43-.43-3.61,5.22.36.35a.54.54,0,0,1,0,.76l-.56.55a.53.53,0,0,1-.75,0l-2.69-2.69L3,21.31c-.15.14-.42-.13-.28-.28l8.23-9.24L8.23,9.1a.53.53,0,0,1,0-.75l.55-.56a.54.54,0,0,1,.76,0l.35.36,5.22-3.61-.43-.43a.53.53,0,0,1,0-.75l.55-.56a.56.56,0,0,1,.76,0L21.2,8A.56.56,0,0,1,21.2,8.77Z"
@@ -38,6 +43,10 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 /* Blurple Verified */
 .verified-1Jv_7P {
   color: var(--brand-experiment);
+}
+/* White Reply Spine */
+.repliedMessage-3Z6XBG:before {
+  border-color: #fff;
 }
 /* White DM/Channel Header/Thread Spine */
 .theme-dark .headerText-1qIDDT,
@@ -58,7 +67,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
   background-color: var(--background-primary);
   overflow: hidden;
 }
-/* Make ColorBanners Height = NitroBanners */
+/* ColorBanners Height = NitroBanners */
 .popoutBanner-3cqRD9 {
   height: 120px;
 }
@@ -68,7 +77,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 .avatarPositionNormal-2jWoC2 {
   top: 76px;
 }
-/* Fix Pinned/Thread Popouts */
+/* Pinned/Thread Popouts */
 .messagesPopoutWrap-3zryHW {
   max-height: calc(100vh - 150px) !important;
   width: auto;
@@ -92,7 +101,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
   height: 27px;
   flex-shrink: 0;
 }
-/* Fix Windows Branding */
+/* Windows 11 Branding */
 .info-3pQQBb > span:nth-child(3n) {
   width: 0;
   height: 0;
@@ -116,7 +125,7 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 .defaultMarginh2-t7G-2y {
   margin-bottom: 5px;
 }
-/* Fix Settings Headers */
+/* Settings Headers */
 .side-2ur1Qk .header-2Kx1US,
 .side-2ur1Qk .item-3XjbnG {
   padding: 5px 10px;
