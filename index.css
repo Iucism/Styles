@@ -1,7 +1,7 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css");
 @import url("https://aenoo.github.io/Discordicons/src/main.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-/* Iconsax Home/Crown Icon */
+/* Iconsax Home/Crown/Pinned Icon */
 .tutorialContainer-1pL9QS .homeIcon-r0w4ny path {
   d: path(
     "M17.25 10.18V12.81C17.25 12.98 17.24 13.14 17.22 13.3C17.07 15.07 16.02 15.95 14.1 15.95H13.84C13.68 15.95 13.52 16.03 13.42 16.16L12.63 17.21C12.28 17.68 11.72 17.68 11.37 17.21L10.58 16.16C10.49 16.05 10.3 15.95 10.16 15.95H9.89999C7.79999 15.95 6.75 15.43 6.75 12.8V10.17C6.75 8.25004 7.63999 7.20002 9.39999 7.05002C9.55999 7.03002 9.72001 7.02002 9.89001 7.02002H14.09C16.2 7.04002 17.25 8.09002 17.25 10.18Z"
@@ -15,7 +15,6 @@
   );
   transform: scale(0.7) translate(-2px, -2px) !important;
 }
-/* Pinned Icon */
 path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z"] {
   d: path(
     "m21.068 7.758-4.826-4.826a2.75 2.75 0 0 0-4.404.715l-2.435 4.87a.75.75 0 0 1-.426.374L4.81 10.33a1.25 1.25 0 0 0-.476 2.065L7.439 15.5 3 19.94V21h1.06l4.44-4.44 3.104 3.105a1.25 1.25 0 0 0 2.066-.476l1.44-4.166a.75.75 0 0 1 .373-.426l4.87-2.435a2.75 2.75 0 0 0 .715-4.404Z"
@@ -25,13 +24,17 @@ path[d="M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88
 [class^="newMemberBadge-"] {
   display: none;
 }
-/* Inbox */
+/* Fix Inbox */
 .recentMentionsPopout-2bI1ZN .container-iA3Qrz {
   overflow: hidden;
 }
 /* Remove RadialStatus Branding */
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
   display: none !important;
+}
+/* Fix Embeds */
+.embedWrapper-1MtIDg.justifyAuto-BLgJ2X {
+  justify-self: left !important;
 }
 /* Blurple Verified */
 .verified-1Jv_7P {
